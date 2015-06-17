@@ -9,14 +9,14 @@ android:orientation="horizontal">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:textColor="#660000"
+        android:textColor="#ff662052"
         android:textSize="50sp"/>
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Play"
         android:textSize="30sp"
-        android:background="#006699"
+        android:background="#ff16991b"
         android:layout_marginTop="450dp"
         android:layout_centerHorizontal="true" />
     <ImageView

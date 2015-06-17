@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
     private final String TAG = "TKT;"
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,43 +14,43 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         Log.d(TAG, "onCreate");
     }
-    @Override
-    protected void onStart(Bundle savedInstanceState) {
-        super.onStart();
-        Log.d(TAG, "onStart");
-    }
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        Log.d(TAG, "onRestart");
-    }
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Log.d(TAG, "onResume");
-    }
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Log.d(TAG, "onPause");
-    }
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.d(TAG, "onStop");
-    }
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.d(TAG, "onDestroy");
-    }
+    //@Override
+    //protected void onStart(Bundle savedInstanceState) {
+      //  super.onStart();
+        //Log.d(TAG, "onStart");
+    //}
+    //@Override
+    //protected void onRestart() {
+      //  super.onRestart();
+        //Log.d(TAG, "onRestart");
+    //}
+    //@Override
+    //protected void onResume() {
+      //  super.onResume();
+        //Log.d(TAG, "onResume");
+    //}
+    //@Override
+    //protected void onPause() {
+      //  super.onPause();
+       // Log.d(TAG, "onPause");
+    //}
+    //@Override
+    //protected void onStop() {
+      //  super.onStop();
+       // Log.d(TAG, "onStop");
+    //}
+    //@Override
+    //protected void onDestroy() {
+      //  super.onDestroy();
+        //Log.d(TAG, "onDestroy");
+    //}
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    //@Override
+    //public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
+      //  getMenuInflater().inflate(R.menu.menu_main, menu);
+       // return true;
+    //}
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
